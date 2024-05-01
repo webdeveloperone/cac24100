@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">            
+        
+        <title>CAC-Series & Movies</title>        
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        
+        <link rel="stylesheet" href="./styles/styles.css">        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+
+        <header class="header" id="header">
+            <div class="header_logo">
+                <i class="fa-solid fa-film textoBlanco"></i>
+                <h3 class="textoBlanco">CAC - Series & Movies</h3><!--convierto a inline-->
+            </div>
+
+            <div class="header_menu">
+                <a href="#tendencias">Tendencias</a>
+                <a href="./html/registrarse.html">Registrarse</a>
+                <a href="./html/iniciosesion.html" class="fondoNegro" 
+                    id="btnIniciarSesion">
+                    Iniciar Sesión
+                </a>
+            </div>
+        </header>
+
+        <main>
+
+            <section class="main">
+                <h1 class="textoBlanco">Películas y series ilimitadas<br> en un solo lugar</h1>
+                <h2 class="textoBlanco">Disfruta donde quieras.<br> Cancela en cualquier momento</h2>
+
+                <button class="textoBlanco">
+                    Registrate
+                </button>
+
+            </section>
+
+            <section class="form-busqueda">
+                <h2>¿Qué estas buscando para ver?</h2>
+                <form action="./html/resultado-busqueda.html"
+                    id="frm">
+                    <input type="search" 
+                        placeholder="Buscar..."
+                        id="claveDeBusqueda">
+
+                    <button 
+                        type="button"
+                        id="btnBusqueda">
+                        Buscar
+                    </button>
+                </form>
+                <hr>        
+                <h4 id="textoBuscado"></h4>
+            </section>
+
+            <section id="tendencias" class="peliculasTendencias">
+                <h2>Las Tendencias de hoy</h2>
+                <div class="galeriaTendencias">
+                    <div> 
+                        <a href="./html/detalle.html"><img  src="./imgs/peli_1.jpg" alt="The Beekeeper" loading="lazy"></a>
+                    </div>
+                    <div>
+                        <a href="./html/detalle.html"><img  src="./imgs/peli_2.jpg" alt="Badland Hunters" loading="lazy"></a>
+                    </div>
+                    <div>
+                        <a href="./html/detalle.html"><img  src="./imgs/peli_3.jpg" alt="The Marvels" loading="lazy"></a>
+                    </div>
+                    <div>
+                        <a href="./html/detalle.html"><img  src="./imgs/peli_4.jpg" alt="Wonka" loading="lazy"></a>
+                    </div>
+                    <div>
+                        <a href="./html/detalle.html"><img  src="./imgs/peli_5.jpg" alt="Aquaman and the Lost Kingdom" loading="lazy"></a>
+                    </div>
+                    <div>
+                        <a href="./html/detalle.html"><img  src="./imgs/peli_6.jpg" alt="Migration" loading="lazy"></a>
+                    </div>
+                    <div>
+                        <a href="./html/detalle.html"><img  src="./imgs/peli_7.jpg" alt="Sixty Minutes" loading="lazy"></a>
+                    </div>
+                    <div>
+                        <a href="./html/detalle.html"><img  src="./imgs/peli_8.jpg" alt="Wish" loading="lazy"></a>
+                    </div>
+                 
+                </div>
+                <br>
+                <button >Anterior</button>  
+                <button >Siguiente</button>
+                <br>
+                <br>
+            </section>
+            <hr>
+            <section class="peliculasAclamadas" >
+                <h2>Las más aclamadas</h2>
+                 <div class="galeriaAclamadas">
+                    <div >
+                        <img  src="./imgs/aclamada_1.jpg" alt="aclamada_1" loading="lazy">
+                    </div>
+                    <div >
+                        <img  src="./imgs/aclamada_2.jpg" alt="aclamada_2" loading="lazy">
+                    </div>
+                    <div >
+                        <img  src="./imgs/aclamada_3.jpg" alt="aclamada_3" loading="lazy">
+                    </div>
+                    <div >
+                        <img  src="./imgs/aclamada_4.jpg" alt="aclamada_4" loading="lazy">
+                    </div>
+                    <div >
+                        <img  src="./imgs/aclamada_5.jpg" alt="aclamada_5" loading="lazy">
+                    </div>
+                    <div >
+                        <img  src="./imgs/aclamada_6.jpg" alt="aclamada_6" loading="lazy">
+                    </div>
+                    <div >
+                        <img  src="./imgs/aclamada_7.jpg" alt="aclamada_7" loading="lazy">
+                    </div>
+                    <div >
+                        <img src="./imgs/aclamada_8.jpg" alt="aclamada_8" loading="lazy">
+                    </div>
+                    <div >
+                        <img  src="./imgs/aclamada_9.jpg" alt="aclamada_9" loading="lazy">
+                    </div>
+                    <div >
+                        <img  src="./imgs/aclamada_10.jpg" alt="aclamada_10" loading="lazy">
+                    </div>
+                    <div >
+                        <img  src="./imgs/aclamada_11.jpg" alt="aclamada_11" loading="lazy">
+                    </div>
+                    <div >
+                        <img  src="./imgs/aclamada_12.jpg" alt="aclamada_12" loading="lazy">
+                    </div>               
+                </div>
+            </section>
+
+        </main>
+        <footer>
+            <nav>
+                <ul >
+                    <li ><a href="">Términos y condiciones</a></li>
+                    <li ><a href="">Preguntas frecuentes</a></li>
+                    <li ><a href="">Ayuda</a></li>
+                    <li ><a href="">Administrador Peliculas</a></li>
+                </ul>
+            </nav>
+            <a href="#header">
+                <i class="fa fa-circle-up" id="#goBack"></i>
+            </a>
+
+        </footer>
+
+        <script src="https://kit.fontawesome.com/181725805d.js" crossorigin="anonymous"></script>
+        <!--aca van los archivos .js-->
+
+        <!--incluir el /js/script.js-->
+        <!--<script src="/desarollo/24100/js/script.js"></script>-->
+
+        <script src="./js/buscador.js"></script>
+
+    </body>
+</html>
