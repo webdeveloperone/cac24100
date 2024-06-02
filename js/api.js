@@ -8,7 +8,7 @@ fetch("https://rickandmortyapi.com/api/character")
 	console.log(datos)
 	console.log(datos.results)
 
-	datos.results.forEach((elementos) =>{
+	datos.results.forEach((elementos) => {
 	//console.log(elementos.name)
 
 	const contenedorCreado = document.createElement('div')
@@ -18,6 +18,8 @@ fetch("https://rickandmortyapi.com/api/character")
 
  	<img src="${elementos.image}">
 
-`;
-contenedorPersonajes.append(contenedorCreado) 	
- });
+	`;
+	contenedorPersonajes.append(contenedorCreado) 	
+});
+ 
+ })
