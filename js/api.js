@@ -3,19 +3,17 @@ let contenedorPersonajes = document.getElementsByTagName("personajes")
 fetch("https://rickandmortyapi.com/api/character")
 .then(response => response.json())
 
-.then(response => {
+.then(datos => {
  
-	console.log(response)
-	console.log(response.results)
+	console.log(datos)
+	console.log(datos.results)
 
-	response.results.forEach((elementos) =>{
+	datos.results.forEach((elementos) =>{
 	//console.log(elementos.name)
 
 	const contenedorCreado = document.createElement('div')
 
-  });
-
- personajes.innerHTML= `
+ 	contenedorCreado.innerHTML= `
 	<h4>${elementos.name}</h4>
 
  	<img src="${elementos.image}">
