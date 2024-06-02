@@ -1,4 +1,4 @@
-let contenedorPersonajes = document.getElementsByTagName("personajes")
+let contenedorPersonajes = document.getElementsById("personajes")
 
 fetch("https://rickandmortyapi.com/api/character")
 .then((response)=>response.json())
