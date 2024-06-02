@@ -1,9 +1,9 @@
 let contenedorPersonajes = document.getElementsByTagName("personajes")
 
 fetch("https://rickandmortyapi.com/api/character")
-.then(response => response.json())
+.then((response)=>response.json())
 
-.then(datos => {
+.then((datos)=>{
  
 	console.log(datos)
 	console.log(datos.results)
@@ -13,10 +13,9 @@ fetch("https://rickandmortyapi.com/api/character")
 
 	const contenedorCreado = document.createElement('div')
 
- 	contenedorCreado.innerHTML= `
-	<h4>${elementos.name}</h4>
-
- 	<img src="${elementos.image}">
+ 	contenedorCreado.innerHTML = `
+		<h4>${elementos.name}</h4>
+ 		<img src="${elementos.image}">
 
 	`;
 	contenedorPersonajes.append(contenedorCreado) 	
