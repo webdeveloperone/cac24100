@@ -13,12 +13,12 @@ fetch("https://rickandmortyapi.com/api/character")
 
 	const contenedorCreado = document.createElement("div");
 
-// 	contenedorCreado.innerHTML = `
+ 	contenedorCreado.innerHTML = `
 
-//		<h4>${elementos.name}</h4>
-// 		<img src="${elementos.image}">
+		<h4>${elementos.name}</h4>
+ 		<img src="${elementos.image}">
 
-// `;
+	`;
 
 	contenedorPersonajes.append(contenedorCreado) 	
 	});
