@@ -8,7 +8,7 @@ fetch("https://rickandmortyapi.com/api/character")
 	console.log(datos)
 	console.log(datos.results)
 
-})
+
 
 //	datos.results.forEach((elementos) => {
 //	console.log(elementos.name)
@@ -25,4 +25,4 @@ fetch("https://rickandmortyapi.com/api/character")
 //	contenedorPersonajes.append(contenedorCreado) 	
 // });
 
-//})
+})
