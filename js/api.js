@@ -8,8 +8,8 @@ fetch("https://rickandmortyapi.com/api/character")
 	console.log(datos)
 	console.log(datos.results)
 
-	datos.results.forEach((elementos) => {
-	console.log(elementos.name)
+//	datos.results.forEach((elementos) => {
+//	console.log(elementos.name)
 
 //const contenedorCreado = document.createElement('div')
 
